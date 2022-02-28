@@ -1,7 +1,7 @@
 ---
 name: Others
 about: Other issue
-title: ''
+title: '[GSSOC'22] '
 labels: ''
 assignees: ''
 
