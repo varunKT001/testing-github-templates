@@ -1,10 +1,3 @@
----
-name: Pull Request
-about: Pull request template
-labels: GSSoC22
-
----
-
 **Issue reference:**
 
 **Proposed changes:**
@@ -28,4 +21,4 @@ Please delete options that are not relevant.
 - [ ] My changes generate no new warnings
 - [ ] I have added tests that prove my fix is effective or that my feature works
 
-**Additional info (if any)**
+**Additional info (if any):**
