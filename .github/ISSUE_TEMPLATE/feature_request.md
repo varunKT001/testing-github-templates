@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: '[GSSOC'22] | Feature Request: '
+title: 'Feature Request: '
 labels: enhancement
 assignees: ''
 
