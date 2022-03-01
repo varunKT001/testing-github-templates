@@ -14,7 +14,7 @@ jobs:
         if: ${{ github.event.pull_request.merged == true }}
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_message: 'Woohoo 🚀, thank you @{{ github.actor }} for your amazing contribution 😄'
+          PR_message: 'Woohoo 🚀, thank you @${{ github.actor }} for your amazing contribution 😄'
            
       - uses: Manoj-Paramsetti/greets-action@main
         if: ${{ github.event.pull_request.merged == false}}
