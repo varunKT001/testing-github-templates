@@ -1,0 +1,15 @@
+name: Greet and Label
+
+on: [pull_request, issues]  
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:        
+      - uses: Manoj-Paramsetti/greets-action@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          issue_message: 'Hey @${{ github.actor }} 👋,\nThank you for raising an issue. Please make sure that it is detailed, and also following the provided template.'
+          pr_message: 'Hey @${{ github.actor }} 👋,\nThank you for submitting a Pull Request. Make sure it is strictly following the template, and the contribution guidelines.'
+          label_1: 'GSSoC22'
+          
