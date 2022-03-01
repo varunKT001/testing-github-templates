@@ -1,6 +1,10 @@
 name: Greet and Label
 
-on: [pull_request, issues]  
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened, closed]
 
 jobs:        
   greeting:
